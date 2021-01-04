@@ -13,7 +13,53 @@
 
         </header>
         <main>
-            <form action=""></form>
+            <form action="" id="survey-form">
+                <div id="basic-info">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Carlos da Silva...">
+                    
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@example.com...">
+
+                    <label for="age" id="number-label">Age</label>
+                    <input type="number" name="age" id="number" min="16" max="200" placeholder="25...">
+
+                    <label for="male" id="male">Male</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="female" id="female">Female</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                </div>
+                
+                
+               <div id="interest-info">
+                <label for="areas" id="areas-label">Areas of Interest</label>
+                <select name="areas" id="dropdown">
+                    <option value="select">Select...</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="event-organization">Event Organization</option>
+                    <option value="lorem">Lorem</option>
+                    <option value="lorem">Lorem</option>
+                    <option value="lorem">Lorem</option>
+                    <option value="lorem">Lorem</option>
+                </select>
+               </div>
+                
+                <div id="abilities-info">
+                    <label for="talk-public">You can talk in public easily</label>
+                    <input type="checkbox" name="comforable-with" value="talk-public" class="c-areas">
+                    <label for="group-work">You can work in group without any problem</label>
+                    <input type="checkbox" name="comforable-with" value="group-work" class="c-areas">
+                    <label for="talk-public">You can manage your time to submit your activities </label>
+                    <input type="checkbox" name="comforable-with" value="deadline-responsability" class="c-areas">
+                    
+                    <label for="more-informations"></label>
+                    <textarea name="more-informations" id="text-area" cols="20" rows="10" placeholder="More Information..."></textarea>
+                </div>
+                
+                <button type="submit" id="submit" >Submit</button>
+                
+            </form>
+
 
         </main>
 
