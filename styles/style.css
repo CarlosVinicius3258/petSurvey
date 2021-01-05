@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #basic-info input{
     color: #00364c;
-    background-color: #e6f8ff;
+    background-color: #fff;
     margin-top: 2px;
     padding: 8px;
     border: 0.03em solid #001219;
@@ -82,7 +82,7 @@ hr{
 
 #dropdown{
     color: #00364c;
-    background-color: #e6f8ff;
+    background-color: #fff;
     margin-top: 10px;
     padding: 5px;
     border: 0.03em solid #001219;
