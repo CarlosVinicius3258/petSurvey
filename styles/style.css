@@ -123,6 +123,15 @@ hr{
     margin: 15px;
 }
 
+#more-info textarea{
+    color: #00364c;
+    background-color: #fff;
+    margin-top: 2px;
+    padding: 8px;
+    border: 0.03em solid #001219;
+    border-radius: 5px;
+}
+
 #footer{
     text-align: center;
     background-color: #001219;
