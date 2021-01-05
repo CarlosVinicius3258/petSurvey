@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
     color: #ffffff;
 }
 #container{
-    width: 75%;
+    width: 60%;
     height: auto;
     padding: 20px;
     display: flex;
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #header #description{
     text-align: justify;
+    margin:10px 50px 10px 50px;
 }
 
 
